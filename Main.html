@@ -1,0 +1,54 @@
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/index.css"> 
+  <script src="js/index.js">
+      #tim {
+        float: left
+      }
+    </script> 
+  <title>Hải htnl</title> 
+ </head> 
+ <body style="bbackground-clor:#FF1493"> 
+  <div id="Write" style="text-align:center;
+    margin-top :100px
+    "> 
+   <div id="tim" style="float:left;font-Size:40px">
+     ❤️ 
+   </div> Làm Người yêu tớ nhé 
+   <div id="tim1" style="float:right;font-Size:40px">
+     ❤️ 
+   </div> 
+  </div> 
+  <div id="Yesno" style="text-align:center;margin-top:20px;color:red;"> 
+   <a style="border:solid 2px black" id="yes" onclick="function1()" type="submit">không</a> 
+   <a style="text-decoration:none;color:red;margin-left:50px;padding:0px 10px 0px 10px;border:solid 2px black" href="https://dinhkaito.github.io/Crush">Có</a> 
+  </div> 
+  <script type="text/javascript" charset="utf-8">
+      var tim = document.getElementById("tim");
+      var tim1 = document.getElementById("tim1");
+      var yes = document.getElementById("yes");
+      var no = document.getElementById("no");
+      setInterval(function() {
+        setTimeout(function() {
+          tim1.style.fontSize = "small";
+        }, 500);
+        setTimeout(function() {
+          tim1.style.fontSize = "inherit";
+        }, 1000);
+        setTimeout(function() {
+          tim.style.fontSize = "small";
+        }, 500);
+        setTimeout(function() {
+          tim.style.fontSize = "inherit";
+        }, 1000);
+      }, 1500);
+      function function1() {
+        document.body.style.background =
+          " url('https://cdn.glitch.me/e384a49f-e6eb-4bc7-8ce8-0e81d73ad3b2%2Fma.jpg?v=1636452586254') ";
+        no.style.display = "none";
+      }
+    </script> 
+ </body>
+</html>
